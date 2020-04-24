@@ -52,7 +52,7 @@ containerTemplate(name: 'kubectl', image: 'roffe/kubectl', command: 'cat', ttyEn
 		  sh "sonar-scanner \
 		    -Dsonar.projectName=${sonarQubeProject} \
 		    -Dsonar.host.url=${sonarQubeURL} \
-		    -Dsonar.projectBaseDir=./”
+		    -Dsonar.projectBaseDir=./"
 		  }
 		}
 		
