@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend-lab25
-          image: chiungdlee/front-service
+          image: chiungdlee/frontend-lab25
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
